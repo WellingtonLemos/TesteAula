@@ -1,9 +1,15 @@
 package Teste.Aula.br;
 
+import java.util.Scanner;
+
 public class WellingtonLemos {
 	public static void main(String[]args){
 		
-		int num1 = 3, num2=4;
+		Scanner input = new Scanner(System.in);		
+		
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+		
 		int soma = num1 + num2;
 		System.out.println(soma);
 		
